@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .container{
+    width: 95%;
+    margin: auto;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+ } 
+.contact-sect{
+    padding-top: 90px;
+    padding-bottom: 170px;
+    background-color:  #f4f9fc;
+}
+.contact-img{
+    position: relative;
+}
+.contact-cont{
+    margin: 20px;
+    background-color: #f4f9fc;
+    padding: 40px;
+    border-bottom: 3px solid var(--three-color);
+    position: absolute;
+    bottom: -185px;
+}
+.form .form-inp{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 30px;
+    border-bottom: 1px solid var(--three-color);
+    font-size: 18px;
+    background-color: #f4f9fc;
+    
+    
+}
+.form .form-text{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 30px;
+    border-bottom: 1px solid var(--three-color);
+    font-size: 18px;
+    background-color: #f4f9fc;
+    
+    
+}
+.form-inp,.form-text{
+    border: none;
+}
+.form-btn{
+    padding: 30px;
+}
+.form-btn button{
+    padding: 12px 45px;
+    background-color: var(--three-color);
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.form-detail{
+    padding: 30px;
+    text-align: start;
+}
+.form-detail h2{
+    text-align: start;
+    padding-bottom: 20px;
+}
+.form-detail p {
+    padding-bottom: 10px ;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.form-detail span{
+    color: var(--three-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+@media (max-width:576px) {
+    .col-xs-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-xs-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .contact-cont{
+        margin: 10px;
+        padding: 20px;
+        bottom: -430px;
+    }
+    .form .form-inp{
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .form .form-text{
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .form-btn{
+        padding: 20px;
+        font-size: 14px;
+    }
+    .form-detail h2{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .form-detail p{
+        font-size: 16px;
+    }
+    .form-detail span{
+        font-size: 20px;
+        
+    }
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .col-xm-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-xm-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .contact-cont{
+        margin: 10px;
+        padding: 20px;
+        bottom: -332px;
+    }
+    .form .form-inp{
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .form .form-text{
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .form-btn{
+        padding: 20px;
+        font-size: 14px;
+    }
+    .form-detail h2{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .form-detail p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .form-detail span{
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .col-xm-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-xm-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .contact-cont{
+        margin: 10px;
+        padding: 20px;
+        bottom: -488px;
+    }
+}
+@media (min-width:992px) {
+    .col-lg-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-lg-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}
+@media (min-width:1200px) {
+    .col-lg-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-lg-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}

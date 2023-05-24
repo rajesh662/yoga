@@ -1,0 +1,172 @@
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.container{
+   width: 95%;
+   margin: auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 15px;
+}
+
+.img-back{
+    background-image: url("eneko-urunuela-i2ysmeuagdy-unsplash-1920x1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 30px;
+    
+}
+
+.header-ofer p{
+        padding: 10px 0;
+        width: 250px;
+        background-color: white;
+        border-radius: 25px;
+        color: black;
+        text-align: center;
+        font-size: 18px;
+     }
+     .off-color{
+        color:var(--secondry-color)
+     }
+     .header-ofer h1{
+        padding-top: 25px;
+        font-size: 70px;
+        color: white;
+        font-weight: 500;
+     }
+     .header-ofer h5{
+        color: white;
+        font-size: 20px;
+        padding-top: 30px;
+        font-weight: 400;
+        line-height: 1.5;
+     }
+     .header-btn{
+        display: flex;
+      
+     }
+     .header-btn .active{
+        margin:40px 60px 20px 0px;
+        padding: 15px 30px;
+        font-size: 18px;
+        background-color: var(--secondry-color);
+        color: white;
+        border: none;
+     }
+     .header-btn .play-btn{
+        background-color: transparent;
+        border: none;
+        margin-top: 40px;
+        padding: 15px 30px;
+        font-size: 18px;
+        color: white;
+        position: relative;
+        
+     }
+    .play-btn i{
+        position: absolute;
+        font-size: 50px;
+        top:0px;
+        left: -25px;
+    }
+    .play-btn:hover{
+        color: var(--secondry-color);
+    }
+    @media (max-width:576px) {
+      .col-xs-12{
+         width: 100%;
+      }
+      .header-ofer h1{
+         font-size: 35px;
+      }
+      .header-ofer p{
+        
+         width: 210px;
+         font-size: 16px;
+      }
+      .header-ofer h5{
+         font-size: 18px;
+      }
+      .header-btn{
+         display: flex;
+         flex-direction: column;
+       
+      }
+      .header-btn .active{
+         margin:40px 60px 20px 0px;
+         padding: 10px 20px;
+         font-size: 18px;
+         background-color: var(--secondry-color);
+         color: white;
+         border: none;
+      }
+      .img-back{
+         padding: 50px 0px;
+      
+      }
+      .header-btn .play-btn{
+         margin-left: 30px;
+      }
+      
+    
+    }
+
+    @media (min-width:576px) and (max-width:768px) {
+      .col-xm-12{
+         width: 100%;
+      }
+
+      .header-btn{
+         display: flex;
+         flex-direction: column;
+       
+      }
+      .header-btn .active{
+         margin:40px 60px 20px 0px;
+         padding: 10px 20px;
+         font-size: 18px;
+         background-color: var(--secondry-color);
+         color: white;
+         border: none;
+      }
+      .img-back{
+         padding: 50px 0px;
+      
+      }
+      .header-btn .play-btn{
+         margin-left: 30px;
+      }
+      .header-ofer h1{
+         font-size: 35px;
+      }
+      .header-ofer p{
+        
+         width: 250px;
+         font-size: 16px;
+      }
+      .header-ofer h5{
+         font-size: 18px;
+      }
+     
+    }
+    
+    @media (min-width:768px) and (max-width:992px) {
+      .col-md-12{
+         width: 100%;
+      }
+    }
+    @media (min-width:992px) {
+         .col-lg-12{
+            width: 100%;
+         }
+    }
+    @media (min-width:1200px) {
+
+    }

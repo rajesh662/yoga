@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .container{
+    width: 95%;
+    margin: auto;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+ }
+.blog-sect{
+    background-color: #f4f9fc;
+    padding: 50px 0;
+   
+}
+.blog-head h1{
+    font-size: 40px;
+    color:var(--three-color);
+   
+    position: relative;
+}
+.blog-head h1::after{
+    content: " ";
+    position: absolute;
+    border: 2px solid var(--three-color);
+    width: 100px;
+    top:25px;
+    left:175px;
+}
+.blog-btn{
+    text-align: end;
+}
+.blog-btn button{
+    padding: 15px 40px;
+    background-color: var(--three-color);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.blog {
+    padding-top: 50px;
+}
+.blog-img,.blog-cont{
+    padding: 20px;
+}
+.blog-cont p{
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: 600;
+    color: var(--three-color);
+}
+.blog-cont p:hover{
+    color: var(--secondry-color);
+}
+.blog-cont time {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.blog-cont button{
+    display: flex;
+   justify-content: baseline;
+    padding: 10px 30px;
+    font-size: 18px;
+    color:  var(--three-color);
+    background-color:transparent;
+    border:1px solid  var(--three-color);
+}
+.blog-cont button:hover{
+    background-color: var(--three-color);
+    color: white;
+}
+
+@media (max-width:576px) {
+    .col-xs-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .blog-sect{
+      
+        padding: 20px 0;
+       
+    }
+    .blog-head h1::after{
+        content: " ";
+        position: absolute;
+        border: 2px solid var(--three-color);
+        width: 100px;
+        top:32px;
+        left:172px;
+    }
+    .blog-btn{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .col-xm-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .blog-btn{
+        text-align: center;
+        margin-top: 80px;
+    }
+     .blog-head {
+        text-align: center;
+    }
+    .blog-head h1::after{
+        content: " ";
+        position: absolute;
+        border: 2px solid var(--three-color);
+        width: 100px;
+        top:32px;
+        left:392px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .col-md-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-md-12{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}
+@media (min-width:992px) {
+
+}
+@media (min-width:1200px) {
+
+}

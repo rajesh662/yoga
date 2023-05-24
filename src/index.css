@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  --primary-color:gray;
+  --secondry-color:#e13d96;
+  --three-color:#1e73be;
+
+ }
+  /* .col-lg-1{
+    flex: 0 0 auto;
+    width: 8.33%;
+    }	
+    .col-lg-2{ 
+        flex: 0 0 auto;
+    width: 16.66%;
+    }	
+    .col-lg-3{ 
+        flex: 0 0 auto;
+    width: 25%;
+    }	
+    .col-lg-4{ 
+        flex: 0 0 auto;
+    width: 33.33%;
+    }	
+    .col-lg-5{ 
+        flex: 0 0 auto;
+    width: 41.66%;
+    }	
+    .col-lg-6{ 
+        flex: 0 0 auto;
+    width: 50%;
+    }	
+    .col-lg-7{ 
+        flex: 0 0 auto;
+    width: 58.33%;
+    }	
+    .col-lg-8{
+        flex: 0 0 auto;
+        width: 66.66%;
+    }	
+    .col-lg-9{
+        flex: 0 0 auto;
+        width: 75%;
+    }	
+    .col-lg-10{
+        flex: 0 0 auto;
+        width: 83.33%;
+    }	
+    .col-lg-11{ 
+        flex: 0 0 auto;
+    width: 91.66%;
+    }	
+    .col-lg-12{ 
+        flex: 0 0 auto;
+    width: 100%;
+    }  */
+
+    /* *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+   }
+   .container{
+      width: 95%;
+      margin: auto;
+   }
+   .row{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+   } */
